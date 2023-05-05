@@ -174,4 +174,6 @@ sketch
 
 pnpm-lock.yaml
 yarn.lock
+auto-imports.d.ts
+components.d.ts
 # End of https://www.toptal.com/developers/gitignore/api/macos,vue,react,node
