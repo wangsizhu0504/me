@@ -53,35 +53,37 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="prose m-auto mb-8">
-    <h1 class="mb-0 !lt-md:text-7">
+  <div class="prose m-auto mb-8 ">
+    <h1 class="mb-0 !lt-md:text-7 slide-up animate-delay-200">
       <span>
         <img src="/images/hand.png" alt="hello" title="hello" class="!w-35px m-0" h-35px leading-35px vertical-initial inline-block />
       </span>
       Hello,I'm Wang sizhu
     </h1>
-    <h3 text="~ [#999]" pl-4 class="!lt-md:text-15px">
+    <h3 text="~ [#999]" pl-4 class="!lt-md:text-15px slide-up ">
       A passionate frontend developer from China
     </h3>
-    <article>
+    <article class="slide-up-content">
       <p>
         I live and work in China, BeiJing. I spend most of my day, experimenting with HTML, CSS and Javascript (and it's endless list of frameworks). I enjoy coding and the challenge of learning something new everyday.
       </p>
       <p>I like making interesting projects.</p>
 
-      <h6>TECHNOLOGIES I USE</h6>
+      <p class="text-coolgray">
+        TECHNOLOGIES I USE
+      </p>
       <p>DEVELOPMENT</p>
-      <div class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
+      <p class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
         <DevTools v-for="skill in skills" v-bind="skill" :key="skill.icon" />
-      </div>
+      </p>
       <p>APPLICATION</p>
-      <div class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
+      <p class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
         <DevTools v-for="app in apps" v-bind="app" :key="app.icon" />
-      </div>
+      </p>
       <p>SERVICE</p>
-      <div class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
+      <p class="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-x-2 gap-y-2">
         <DevTools v-for="service in services" v-bind="service" :key="service.icon" />
-      </div>
+      </p>
       <hr />
       <p>
         Find me on
