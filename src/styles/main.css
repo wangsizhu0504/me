@@ -2,6 +2,10 @@
   --c-bg: #fff;
   --c-scrollbar: #eee;
   --c-scrollbar-hover: #bbb;
+  --c-bg-opacity: 0.25;
+  --c-border-color: rgb(229,229,229);
+  --c-bg-color: rgb(245,245,245);
+
 }
 
 html {
@@ -12,6 +16,9 @@ html.dark {
   --c-bg: #050505;
   --c-scrollbar: #111;
   --c-scrollbar-hover: #222;
+  --c-bg-opacity: 0.3;
+  --c-border-color: rgb(38,38,38);
+  --c-bg-color: rgb(38,38,38);
 }
 
 html {
