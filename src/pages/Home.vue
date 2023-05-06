@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import confetti from 'canvas-confetti'
+
 const skills = computed(() => [
   { icon: 'i-skill-icons:vuejs-light', name: 'Vue.js' },
   { icon: 'i-skill-icons:typescript', name: 'TypeScript' },
@@ -21,6 +23,33 @@ const services = computed(() => [
   { icon: 'i-skill-icons:github-dark', name: 'Github' },
   { icon: 'i-skill-icons:vercel-light', name: 'vercel' },
 ])
+const count = 260
+const defaults = {
+  zIndex: 9999,
+  origin: { y: 0.5 },
+}
+function fire(particleRatio: number, opts: any) {
+  confetti(
+    Object.assign({}, defaults, opts, {
+      particleCount: Math.floor(count * particleRatio),
+    }),
+  )
+}
+
+onMounted(() => {
+  fire(0.45, {
+    spread: 45,
+    angle: 60,
+    origin: { x: 0 },
+    startVelocity: 55,
+  })
+  fire(0.4, {
+    spread: 45,
+    angle: 120,
+    origin: { x: 1 },
+    startVelocity: 55,
+  })
+})
 </script>
 
 <template>
