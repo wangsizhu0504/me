@@ -22,7 +22,7 @@ html.dark {
 }
 
 html {
-  overflow: scroll;
+  overflow: auto;
 }
 
 #nprogress {
