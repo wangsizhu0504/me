@@ -18,27 +18,26 @@
     "vue-router": "4.1.6"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.60",
+    "@iconify/json": "^2.2.62",
     "@kriszu/eslint-config": "^1.0.11",
-
     "@types/canvas-confetti": "^1.6.0",
     "@types/nprogress": "^0.2.0",
-    "@unocss/reset": "^0.51.8",
+    "@unocss/reset": "^0.51.12",
     "@vitejs/plugin-vue": "^4.2.1",
     "cross-env": "^7.0.3",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "rimraf": "^5.0.0",
     "sharp": "^0.32.1",
     "typescript": "^5.0.4",
-    "unocss": "^0.51.8",
+    "unocss": "^0.51.12",
     "unplugin-auto-import": "^0.15.3",
     "unplugin-icons": "^0.16.1",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.3.5",
-    "vite-plugin-inspect": "^0.7.25",
+    "vite-plugin-inspect": "^0.7.26",
     "vite-plugin-pages": "^0.29.0",
     "vite-plugin-pwa": "^0.14.7",
-    "vite-plugin-vue-markdown": "^0.23.0",
+    "vite-plugin-vue-markdown": "^0.23.4",
     "vite-ssg": "^0.22.2",
     "vite-svg-loader": "^4.0.0"
   }
