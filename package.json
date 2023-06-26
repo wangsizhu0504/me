@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@8.6.3",
+  "packageManager": "pnpm@8.6.4",
   "author": "WSZ <wangsizhu0504@outlook.com>",
   "scripts": {
     "build": "cross-env NODE_ENV=production vite-ssg build",
