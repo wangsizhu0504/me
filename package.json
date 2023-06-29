@@ -38,7 +38,7 @@
     "vite-plugin-pages": "^0.31.0",
     "vite-plugin-pwa": "^0.16.0",
     "vite-plugin-vue-markdown": "^0.23.4",
-    "vite-ssg": "^0.22.2",
+    "vite-ssg": "^0.23.0",
     "vite-svg-loader": "^4.0.0"
   }
 }
